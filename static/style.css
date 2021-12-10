@@ -1,0 +1,29 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number]{
+  width: 250px;
+  height: 40px;
+  margin: 10px;
+}
+body {
+  background-color: #f3f3e1;
+  font-family: 'Courier New', Courier, monospace;
+}
+#main{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+#result_after {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+}
